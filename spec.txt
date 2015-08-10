@@ -8,6 +8,8 @@ unless it is the first letter       Susan has some  Suzan haz some
                                     skills          skillz
 
 or unless it is an "sh"             Susan thrashes  Suzan thrashez
+                                    with said       with said
+                                    skills.         skills.
 
 if a sentence ends, change the      Susan thrashes. Suzan thrashez,
 ending to: "fo' shizzle."                           fo' shizzle.

@@ -9,40 +9,27 @@
             $iterator = 0;
 
             while ($iterator < $array_length) {
-                if ($normal_array[$iterator] == "s") {
+
+                if ($iterator == 0) {
+                    array_push($snoop_array, $normal_array[$iterator]);
+                }
+                elseif ($normal_array[($iterator - 1)] == " ") {
+                    array_push($snoop_array, $normal_array[$iterator]);
+                }
+                elseif ($normal_array[$iterator] == "s") {
                     array_push($snoop_array, "z");
-                    $iterator += 1;
+                }
+                elseif ($normal_array[$iterator] == "S") {
+                    array_push($snoop_array, "Z");
                 }
                 else {
                     array_push($snoop_array, $normal_array[$iterator]);
-                    $iterator += 1;
                 }
+                $iterator += 1;
+
             }
 
             return implode("", $snoop_array);
         }
     }
 ?>
-
-
-
-
-
-            // foreach($normal_array as $letter) {
-            //
-            //     if ($letter == " ");
-            //
-            //         if ($letter == "s") {
-            //             $letter = "z";
-            //             array_push($snoop_array, $letter);
-            //         }
-            //         elseif ($letter == "S") {
-            //             $letter = "Z";
-            //             array_push($snoop_array, $letter);
-            //         }
-            //     else {
-            //         array_push($snoop_array, $letter);
-            //     }
-            // }
-            //
-            // return implode("", $snoop_array);
