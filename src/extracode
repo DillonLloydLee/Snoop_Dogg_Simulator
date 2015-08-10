@@ -1,0 +1,22 @@
+<?php
+    Class SnoopTranslator
+    {
+        function translate($normal_phrase)
+        {
+            $number = strlen($normal_phrase);
+            $normal_array = str_split($normal_phrase);
+            while ($number > 0) {
+                if ($normal_array[$number] == "s") {
+                    $normal_array[$number] = "z";
+                    --$number;
+                }
+            }
+
+            return implode("", $normal_array);
+
+        }
+    }
+
+
+
+?>
