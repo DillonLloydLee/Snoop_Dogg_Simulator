@@ -1,0 +1,12 @@
+action                              input           output
+
+
+change all instance of "s" into     has             haz
+"z"
+
+unless it is the first letter       Susan           Suzan
+
+or unless it is an "sh"             Susan thrashes  Suzan thrashez
+
+if a sentence ends, change the      Susan thrashes. Suzan thrashez,
+ending to: "fo' shizzle."                           fo' shizzle.
