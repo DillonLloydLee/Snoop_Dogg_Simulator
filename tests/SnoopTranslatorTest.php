@@ -16,6 +16,20 @@
             $this->assertEquals("haz", $result);
 
         }
+
+        function test_translate_firstLetter()
+        {
+            //arrange
+            $test_SnoopTranslator = new SnoopTranslator;
+            $input = "Susan";
+
+            //act
+            $result = $test_SnoopTranslator->translate($input);
+
+            //assert
+            $this->assertEquals("Suzan", $result);
+
+        }
     }
 
 ?>

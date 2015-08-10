@@ -11,6 +11,10 @@
                     $letter = "z";
                     array_push($snoop_phrase, $letter);
                 }
+                elseif ($letter == "S") {
+                    $letter = "Z";
+                    array_push($snoop_phrase, $letter);
+                }
                 else {
                     array_push($snoop_phrase, $letter);
                 }
