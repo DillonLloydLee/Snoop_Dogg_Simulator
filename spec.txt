@@ -4,7 +4,8 @@ action                              input           output
 change all instance of "s" into     has             haz
 "z"
 
-unless it is the first letter       Susan           Suzan
+unless it is the first letter       Susan has some  Suzan haz some
+                                    skills          skillz
 
 or unless it is an "sh"             Susan thrashes  Suzan thrashez
 
